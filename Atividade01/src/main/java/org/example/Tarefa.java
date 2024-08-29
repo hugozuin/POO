@@ -5,7 +5,7 @@ public class Tarefa {
     private String prazo;
     private boolean  concluida;
 
-    public Tarefa(String estudarJava, String date) {
+    public Tarefa(String nome, String date) {
         this.nome = nome;
         this.prazo = date;
         this.concluida = false;
@@ -27,7 +27,7 @@ public class Tarefa {
         concluida = true;
     }
 
-    public void alterarPrazo(String date) {
-
+    public void alterarPrazo(String novoPrazo) {
+        this.prazo = novoPrazo;
     }
 }

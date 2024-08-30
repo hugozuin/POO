@@ -50,6 +50,4 @@ public class GeradorDeSenhasTest {
 
         assertEquals(0, senha.length());
     }
-
-
 }
